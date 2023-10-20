@@ -1,0 +1,1 @@
+A repo of exercises from the Python for Programmers learning path on Educative
