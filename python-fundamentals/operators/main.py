@@ -59,5 +59,18 @@ print(user_permissions) # the bitwise or operator adds the bits of each operand 
 print((user_permissions & WRITE_PERMISION) == WRITE_PERMISION) # the bitwise and operator multiplies the bits of each operand one at a time. Here were seeing if a user has a specific permission. If the bitwise and operation returns the permission, then the user has that permission
 print(user_permissions ^ WRITE_PERMISION) # the bitwise xor operator performs an xor operation on each bit of the operands. This takes away the write permission and returns the other two permissions
 
+#String operations
+newStr = "Hello " + "world"
+print(newStr)
 
+print('a' < 'b') # You can use comparison operators with string
+print("Sunny" == "Sunny")
+
+print("of" in "This is a random string")
+print("random" in "This is a random string")
+
+#Access operators
+newList = [1,2,3,4,5]
+print(newList[3])
+print(len(newList))
 
